@@ -140,10 +140,50 @@ nav ul li a {
   justify-content: center;
   margin-top: 40px;
 }
+.section-2-card-img {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  margin-right: 20px;
+}
+.layer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.layer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .section-2-card-img img {
   height: 300px;
   width: 250px;
   margin-right: 20px;
+  border-radius: 15px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.3s ease;
+}
+.overlay i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #ff42a5;
+}
+.section-2-card-img:hover .overlay {
+  opacity: 1;
+  border: 3px solid #ff42a5;
 }
 .section-2-card-img p {
   font-size: 15px;
@@ -339,7 +379,7 @@ nav ul li a {
   }
   .section-2-card-img {
     margin-left: 145px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
   }
   .section-3 {
     height: 100vh;
@@ -442,8 +482,13 @@ nav ul li a {
   .section-2-text {
     width: 129%;
   }
-  .section-2-card-img:first-child {
-    padding-left: 240px;
+  .section-2-card {
+    width: 129%;
+  }
+  .section-2-card-img {
+    position: relative;
+    width: 210px;
+    height: 260px;
   }
   .section-2-card-img img {
     height: 260px;
@@ -478,7 +523,7 @@ nav ul li a {
     margin-left: 40px;
     margin-bottom: 80px;
   }
-  .footer{
+  .footer {
     width: 129.5%;
     height: 75vh;
   }
