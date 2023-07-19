@@ -426,3 +426,61 @@ nav ul li a {
   }
 }
 /* Responsive For Mobile Device Complete */
+
+/* Responsive For Tablet Device */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .header-menu {
+    margin-right: -180px;
+  }
+  .section-1 {
+    background-color: #fff;
+  }
+  .section-1-img img {
+    margin-bottom: -97px;
+    height: 520px;
+  }
+  .section-2-text {
+    width: 129%;
+  }
+  .section-2-card-img:first-child {
+    padding-left: 240px;
+  }
+  .section-2-card-img img {
+    height: 260px;
+    width: 210px;
+  }
+  .section-3-img img {
+    height: 410px;
+    width: 400px;
+    border-radius: 15px;
+    margin-right: -300px;
+  }
+  .little-image img {
+    height: 200px;
+    width: 180px;
+    translate: -182px 256px;
+    border-radius: 0;
+  }
+  .section-3-text {
+    width: 55%;
+  }
+  .section-3-text P {
+    font-size: 10px;
+  }
+  .section-4 {
+    width: 120%;
+    height: 32vh;
+    margin-top: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-bottom: 80px;
+  }
+  .footer{
+    width: 129.5%;
+    height: 75vh;
+  }
+}
+/* Responsive For Tablet Device Complete */
