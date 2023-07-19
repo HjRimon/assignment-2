@@ -184,6 +184,7 @@ nav ul li a {
 .section-2-card-img:hover .overlay {
   opacity: 1;
   border: 3px solid #ff42a5;
+  cursor: pointer;
 }
 .section-2-card-img p {
   font-size: 15px;
